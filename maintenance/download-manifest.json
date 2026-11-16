@@ -1,0 +1,29 @@
+{
+  "downloaded": "2026-11-16T15:34:44.368200+00:00",
+  "sources": {
+    "bus.json": {
+      "url": "https://static.data.gov.hk/td/routes-fares-geojson/JSON_BUS.json",
+      "bytes": 78572364,
+      "sha256": "534a589dd52e1548bb853aa41abf4e79a9bb7fd7a53c1baeb3c49bee3d4bdff7",
+      "lastModified": "Tue, 10 Nov 2026 08:14:37 GMT"
+    },
+    "gmb.json": {
+      "url": "https://static.data.gov.hk/td/routes-fares-geojson/JSON_GMB.json",
+      "bytes": 20507503,
+      "sha256": "1c45c13e3ab9d577eabaf0d126f0b0e2b0bf66af82605ec5305f56a2d9fb602f",
+      "lastModified": "Tue, 10 Nov 2026 08:14:38 GMT"
+    },
+    "gtfs.zip": {
+      "url": "https://static.data.gov.hk/td/pt-headway-tc/gtfs.zip",
+      "bytes": 13768550,
+      "sha256": "0afc6e7d682da67f963326f323dbede4b841f80b0c185b0046a74e9583ebf925",
+      "lastModified": "Tue, 10 Nov 2026 08:14:28 GMT"
+    },
+    "geometry.zip": {
+      "url": "https://codeload.github.com/hkbus/route-waypoints/zip/refs/heads/gh-pages",
+      "bytes": 18848486,
+      "sha256": "f2186fdba0cf472994747ef7363557a13f49584a5c87fe8920983ec0cb6a9d4e",
+      "lastModified": null
+    }
+  }
+}

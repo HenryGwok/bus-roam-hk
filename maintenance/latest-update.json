@@ -1,0 +1,2521 @@
+{
+  "created": "2026-11-16T15:35:21.954Z",
+  "candidate": "validated GitHub Actions candidate",
+  "activeUnchanged": false,
+  "requiresReview": false,
+  "blocking": [],
+  "added": [
+    {
+      "id": "1000738-1",
+      "number": "770",
+      "destination": "柴灣 (東)(經黃竹坑道地面段)"
+    },
+    {
+      "id": "1000739-1",
+      "number": "92R",
+      "destination": "西貢"
+    },
+    {
+      "id": "1000742-1",
+      "number": "67M",
+      "destination": "屯門官立中學"
+    }
+  ],
+  "removed": [
+    {
+      "id": "1390-1",
+      "number": "8A"
+    },
+    {
+      "id": "8743-2",
+      "number": "92R"
+    },
+    {
+      "id": "2005295-1",
+      "number": "68"
+    },
+    {
+      "id": "2006969-1",
+      "number": "76A"
+    },
+    {
+      "id": "2011490-1",
+      "number": "811B"
+    }
+  ],
+  "changed": [
+    {
+      "id": "1010-2",
+      "number": "106",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1014-2",
+      "number": "108",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1023-2",
+      "number": "116",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1038-2",
+      "number": "14",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1042-1",
+      "number": "15A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1042-2",
+      "number": "15A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1081-1",
+      "number": "24",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1090-1",
+      "number": "258P",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1098-1",
+      "number": "260B",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1099-2",
+      "number": "260C",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1105-1",
+      "number": "263",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1123-2",
+      "number": "271",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "1161-2",
+      "number": "297",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1165-2",
+      "number": "2A",
+      "fields": [
+        "stops",
+        "geometry"
+      ]
+    },
+    {
+      "id": "1195-1",
+      "number": "978",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1213-2",
+      "number": "42",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "1261-1",
+      "number": "60M",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1262-1",
+      "number": "60X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1266-1",
+      "number": "61X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1268-1",
+      "number": "62X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1270-2",
+      "number": "641",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1315-2",
+      "number": "74A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1393-1",
+      "number": "904",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1394-1",
+      "number": "905",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1396-1",
+      "number": "914",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1397-1",
+      "number": "914X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1400-1",
+      "number": "934",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1401-1",
+      "number": "935",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1407-1",
+      "number": "948P",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1410-1",
+      "number": "960",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1412-1",
+      "number": "960P",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1413-1",
+      "number": "960S",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1414-1",
+      "number": "961",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1415-1",
+      "number": "968",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1418-1",
+      "number": "98C",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1418-2",
+      "number": "98C",
+      "fields": [
+        "geometry",
+        "schedule"
+      ]
+    },
+    {
+      "id": "1421-2",
+      "number": "98S",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1423-1",
+      "number": "98D",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "1435-2",
+      "number": "N216",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1438-1",
+      "number": "N260",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1460-1",
+      "number": "N30",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1466-1",
+      "number": "E33",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1482-2",
+      "number": "101",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1490-1",
+      "number": "106P",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1491-1",
+      "number": "107",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1491-2",
+      "number": "107",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1557-1",
+      "number": "5B",
+      "fields": [
+        "stops",
+        "geometry"
+      ]
+    },
+    {
+      "id": "1639-2",
+      "number": "B3",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1655-1",
+      "number": "962",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1656-1",
+      "number": "962A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1657-1",
+      "number": "952",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1658-1",
+      "number": "962P",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1659-1",
+      "number": "952P",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1660-1",
+      "number": "962X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1661-1",
+      "number": "967",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1663-1",
+      "number": "969X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1665-2",
+      "number": "970",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1667-1",
+      "number": "973",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1671-2",
+      "number": "A10",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1672-2",
+      "number": "A11",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1674-2",
+      "number": "E11",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1682-2",
+      "number": "E23",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1710-1",
+      "number": "N962",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1711-1",
+      "number": "N969",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1716-1",
+      "number": "629",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1790-1",
+      "number": "948",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1791-1",
+      "number": "948X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1795-1",
+      "number": "967X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1796-1",
+      "number": "969",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1799-1",
+      "number": "969B",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1800-1",
+      "number": "969B",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1802-2",
+      "number": "970X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1805-2",
+      "number": "A12",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1806-1",
+      "number": "A12",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1806-2",
+      "number": "A12",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1807-2",
+      "number": "A22",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1897-1",
+      "number": "930A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1951-1",
+      "number": "960B",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1956-2",
+      "number": "70P",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8073-1",
+      "number": "935",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8090-1",
+      "number": "796X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8094-1",
+      "number": "961P",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8100-1",
+      "number": "960X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8101-1",
+      "number": "E11S",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8104-1",
+      "number": "982X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8124-1",
+      "number": "914P",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8131-1",
+      "number": "968X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8145-2",
+      "number": "28B",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8161-1",
+      "number": "952",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8163-1",
+      "number": "234C",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8163-2",
+      "number": "234C",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8169-1",
+      "number": "5R",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8247-1",
+      "number": "98D",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "8248-1",
+      "number": "98D",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "8266-2",
+      "number": "930X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8273-1",
+      "number": "978A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8274-1",
+      "number": "978B",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8279-2",
+      "number": "E11A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8291-1",
+      "number": "934A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8302-2",
+      "number": "NA33",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8308-1",
+      "number": "982X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8309-2",
+      "number": "2X",
+      "fields": [
+        "stops",
+        "geometry"
+      ]
+    },
+    {
+      "id": "8318-1",
+      "number": "87E",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8336-1",
+      "number": "5B",
+      "fields": [
+        "stops",
+        "geometry"
+      ]
+    },
+    {
+      "id": "8346-2",
+      "number": "NA11",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8353-1",
+      "number": "6P",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8364-1",
+      "number": "905P",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8367-1",
+      "number": "948A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8372-1",
+      "number": "A33X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8373-1",
+      "number": "A33X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8393-1",
+      "number": "968",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8402-1",
+      "number": "980X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8404-1",
+      "number": "981P",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8415-1",
+      "number": "271",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "8428-1",
+      "number": "N796",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8468-1",
+      "number": "107",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8468-2",
+      "number": "107",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8477-1",
+      "number": "973",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8521-1",
+      "number": "936",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8522-1",
+      "number": "293S",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8522-2",
+      "number": "293S",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8523-1",
+      "number": "968A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8525-1",
+      "number": "234D",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8525-2",
+      "number": "234D",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8535-1",
+      "number": "980A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8545-1",
+      "number": "N796",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8546-1",
+      "number": "52P",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8552-1",
+      "number": "263A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8554-1",
+      "number": "952C",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8559-1",
+      "number": "960C",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8593-1",
+      "number": "22",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8593-2",
+      "number": "22",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8637-1",
+      "number": "936A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8666-1",
+      "number": "E23A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8666-2",
+      "number": "E23A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8667-1",
+      "number": "930",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8677-1",
+      "number": "261X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8677-2",
+      "number": "261X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8685-1",
+      "number": "948B",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8686-1",
+      "number": "969P",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8688-1",
+      "number": "969B",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8698-1",
+      "number": "33X",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "8703-1",
+      "number": "263C",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8704-1",
+      "number": "985A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8727-1",
+      "number": "N952",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8730-1",
+      "number": "N930",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8736-1",
+      "number": "N213",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8743-1",
+      "number": "92R",
+      "fields": [
+        "stops",
+        "geometry",
+        "destination"
+      ]
+    },
+    {
+      "id": "8755-2",
+      "number": "A17",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8762-1",
+      "number": "907C",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8765-1",
+      "number": "22M",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "8792-1",
+      "number": "970X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000009-1",
+      "number": "952P",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000011-1",
+      "number": "A43P",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000013-1",
+      "number": "933",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000015-1",
+      "number": "989",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000016-1",
+      "number": "900",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000021-1",
+      "number": "298F",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000044-1",
+      "number": "P960",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000045-1",
+      "number": "P968",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000046-1",
+      "number": "P968",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000051-1",
+      "number": "97",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000054-1",
+      "number": "969",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000055-1",
+      "number": "969N",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000059-1",
+      "number": "X6C",
+      "fields": [
+        "geometry",
+        "schedule"
+      ]
+    },
+    {
+      "id": "1000059-2",
+      "number": "X6C",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000061-1",
+      "number": "969",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000074-1",
+      "number": "E11B",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000074-2",
+      "number": "E11B",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000075-1",
+      "number": "961S",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000079-1",
+      "number": "A29",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000079-2",
+      "number": "A29",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000083-1",
+      "number": "4",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000095-1",
+      "number": "5R",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000124-1",
+      "number": "106P",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000142-1",
+      "number": "224X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000150-1",
+      "number": "276A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000201-1",
+      "number": "5R",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000203-1",
+      "number": "279B",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000204-1",
+      "number": "930B",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000205-1",
+      "number": "930X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000206-1",
+      "number": "62P",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000209-1",
+      "number": "E37C",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000212-1",
+      "number": "64X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000217-1",
+      "number": "979",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000225-1",
+      "number": "24",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000228-1",
+      "number": "259S",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000229-1",
+      "number": "982C",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000236-1",
+      "number": "973",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000240-1",
+      "number": "960X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000241-1",
+      "number": "50M",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000245-1",
+      "number": "56",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000246-1",
+      "number": "952",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000249-1",
+      "number": "952P",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000256-2",
+      "number": "793",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000257-1",
+      "number": "8X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000262-2",
+      "number": "E21D",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000263-1",
+      "number": "91",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000264-1",
+      "number": "91",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000271-1",
+      "number": "961",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000283-1",
+      "number": "950",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000284-1",
+      "number": "56A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000288-1",
+      "number": "798X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000290-2",
+      "number": "272X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000293-1",
+      "number": "967",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000294-1",
+      "number": "263B",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000295-1",
+      "number": "10",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000296-2",
+      "number": "10",
+      "fields": [
+        "stops",
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000300-1",
+      "number": "955",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000300-2",
+      "number": "955",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000304-1",
+      "number": "38",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000304-2",
+      "number": "38",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000305-1",
+      "number": "38",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000307-1",
+      "number": "42",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000308-1",
+      "number": "22X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000309-1",
+      "number": "R33",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000310-1",
+      "number": "R33",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000311-2",
+      "number": "R42",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "1000313-1",
+      "number": "795",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000313-2",
+      "number": "795",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000316-1",
+      "number": "298X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000316-2",
+      "number": "298X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000325-2",
+      "number": "NA10",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000345-1",
+      "number": "5X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000346-1",
+      "number": "5X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000349-1",
+      "number": "8P",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000350-1",
+      "number": "8P",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000354-2",
+      "number": "694S",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000371-1",
+      "number": "900",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000372-1",
+      "number": "N960",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000383-1",
+      "number": "A30",
+      "fields": [
+        "stops",
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000384-1",
+      "number": "A30",
+      "fields": [
+        "stops",
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000385-1",
+      "number": "936A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000389-1",
+      "number": "272A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000392-1",
+      "number": "275X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000405-1",
+      "number": "20A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000405-2",
+      "number": "20A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000406-1",
+      "number": "20A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000406-2",
+      "number": "20A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000413-1",
+      "number": "33X",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "1000419-1",
+      "number": "B3",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000425-1",
+      "number": "82S",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000439-1",
+      "number": "219X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000447-2",
+      "number": "A42",
+      "fields": [
+        "stops"
+      ]
+    },
+    {
+      "id": "1000454-1",
+      "number": "N50",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000454-2",
+      "number": "N50",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000459-2",
+      "number": "A26",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000460-2",
+      "number": "A26",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000469-1",
+      "number": "91B",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "1000513-1",
+      "number": "962P",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000514-1",
+      "number": "961S",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000527-1",
+      "number": "A12",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000533-1",
+      "number": "85P",
+      "fields": [
+        "stops",
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000533-2",
+      "number": "85P",
+      "fields": [
+        "stops",
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000537-2",
+      "number": "272P",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000543-1",
+      "number": "96",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000547-1",
+      "number": "85",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000550-1",
+      "number": "X9",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000551-1",
+      "number": "6E",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000553-1",
+      "number": "90",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000553-2",
+      "number": "90",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000554-2",
+      "number": "A47X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000555-1",
+      "number": "A47X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000562-2",
+      "number": "307D",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000575-1",
+      "number": "272A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000606-1",
+      "number": "76",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000615-1",
+      "number": "E37C",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000619-1",
+      "number": "NA12",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000623-1",
+      "number": "900X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000634-1",
+      "number": "84M",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000636-1",
+      "number": "A43P",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000640-1",
+      "number": "382",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000640-2",
+      "number": "382",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000662-1",
+      "number": "798X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000663-2",
+      "number": "33X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000664-1",
+      "number": "252S",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000668-1",
+      "number": "980X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000682-1",
+      "number": "S56",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000687-2",
+      "number": "971",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000690-1",
+      "number": "E18",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000700-2",
+      "number": "770",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000701-1",
+      "number": "790",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000716-1",
+      "number": "600X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000716-2",
+      "number": "600X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000718-1",
+      "number": "20X",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000719-1",
+      "number": "22S",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000720-1",
+      "number": "22S",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000721-1",
+      "number": "253",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000722-1",
+      "number": "11A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000723-1",
+      "number": "17A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000724-1",
+      "number": "76A",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000725-1",
+      "number": "B15",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000725-2",
+      "number": "B15",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000726-1",
+      "number": "B11",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000726-2",
+      "number": "B11",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000727-1",
+      "number": "B11",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000728-1",
+      "number": "B10",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000728-2",
+      "number": "B10",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000729-1",
+      "number": "B12",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000729-2",
+      "number": "B12",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000730-1",
+      "number": "B13",
+      "fields": [
+        "geometry",
+        "schedule"
+      ]
+    },
+    {
+      "id": "1000730-2",
+      "number": "B13",
+      "fields": [
+        "geometry",
+        "schedule"
+      ]
+    },
+    {
+      "id": "1000731-1",
+      "number": "B14",
+      "fields": [
+        "geometry",
+        "schedule",
+        "destination"
+      ]
+    },
+    {
+      "id": "1000731-2",
+      "number": "B14",
+      "fields": [
+        "geometry",
+        "schedule"
+      ]
+    },
+    {
+      "id": "1000732-1",
+      "number": "NB73",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000732-2",
+      "number": "NB73",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000733-1",
+      "number": "261S",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000734-1",
+      "number": "73B",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "1000735-1",
+      "number": "B11",
+      "fields": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "2003636-1",
+      "number": "54",
+      "fields": [
+        "stops"
+      ]
+    },
+    {
+      "id": "2003637-1",
+      "number": "54",
+      "fields": [
+        "stops"
+      ]
+    },
+    {
+      "id": "2004956-1",
+      "number": "40",
+      "fields": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2009842-1",
+      "number": "54",
+      "fields": [
+        "stops"
+      ]
+    },
+    {
+      "id": "2010335-1",
+      "number": "76A",
+      "fields": [
+        "schedule"
+      ]
+    }
+  ],
+  "stopChanges": [
+    {
+      "id": "129",
+      "before": [
+        "遮打花園, 德輔道中",
+        114.160748,
+        22.280134
+      ],
+      "after": [
+        "遮打花園, 德輔道中",
+        114.16067,
+        22.280134
+      ]
+    },
+    {
+      "id": "616",
+      "before": [
+        "美利道",
+        114.162019,
+        22.280252
+      ],
+      "after": [
+        "美利道",
+        114.161931,
+        22.28027
+      ]
+    },
+    {
+      "id": "1075",
+      "before": [
+        "牛池灣轉車站 - 彩虹站",
+        114.209927,
+        22.334135
+      ],
+      "after": [
+        "牛池灣轉車站 - 彩虹站",
+        114.210014,
+        22.334153
+      ]
+    },
+    {
+      "id": "1102",
+      "before": [
+        "恒安邨",
+        114.230421,
+        22.418005
+      ],
+      "after": [
+        "恆安邨",
+        114.230421,
+        22.418005
+      ]
+    },
+    {
+      "id": "1358",
+      "before": [
+        "牛池灣轉車站 - 牛池灣村",
+        114.207141,
+        22.336718
+      ],
+      "after": [
+        "牛池灣轉車站 - 牛池灣村",
+        114.206976,
+        22.336862
+      ]
+    },
+    {
+      "id": "10000048",
+      "before": [
+        "采頤花園",
+        114.201695,
+        22.335084
+      ],
+      "after": [
+        "采頤花園",
+        114.201695,
+        22.335148
+      ]
+    },
+    {
+      "id": "10000186",
+      "before": [
+        "坪石總站/ 坪石邨",
+        114.209946,
+        22.334035
+      ],
+      "after": [
+        "坪石總站/ 坪石邨",
+        114.210033,
+        22.334053
+      ]
+    },
+    {
+      "id": "10000367",
+      "before": [
+        "啟德(世運道)",
+        114.194531,
+        22.33029
+      ],
+      "after": [
+        "啟德簡約公屋, 世運道",
+        114.194531,
+        22.33029
+      ]
+    },
+    {
+      "id": "10000368",
+      "before": [
+        "啟德簡約公屋, 世運道",
+        114.194589,
+        22.330046
+      ],
+      "after": [
+        "啟德(世運道)",
+        114.194589,
+        22.330046
+      ]
+    },
+    {
+      "id": "10000424",
+      "before": null,
+      "after": [
+        "水泉澳廣場",
+        114.197459,
+        22.373907
+      ]
+    },
+    {
+      "id": "20012989",
+      "before": [
+        "英皇道, 寶峰園外",
+        114.214612,
+        22.284583
+      ],
+      "after": [
+        "英皇道,近寶峰園Ｃ座",
+        114.214612,
+        22.284583
+      ]
+    },
+    {
+      "id": "20015068",
+      "before": [
+        "碧雲道, 近廣田商場",
+        114.239965,
+        22.302546
+      ],
+      "after": [
+        "碧雲道, 廣田商場",
+        114.239965,
+        22.302546
+      ]
+    },
+    {
+      "id": "20023791",
+      "before": null,
+      "after": [
+        "皇后大道西, 近石塘咀市政大廈",
+        114.135731,
+        22.285882
+      ]
+    },
+    {
+      "id": "20012986",
+      "before": [
+        "愛勤街, 東曉閣外",
+        114.227216,
+        22.282719
+      ],
+      "after": null
+    },
+    {
+      "id": "20012987",
+      "before": [
+        "太安街, 逸濤灣",
+        114.224334,
+        22.283939
+      ],
+      "after": null
+    },
+    {
+      "id": "20012988",
+      "before": [
+        "康山道, 康怡廣場外",
+        114.2176,
+        22.2846
+      ],
+      "after": null
+    },
+    {
+      "id": "20012990",
+      "before": [
+        "海灣街, 濱海大廈外",
+        114.211565,
+        22.288132
+      ],
+      "after": null
+    },
+    {
+      "id": "20012991",
+      "before": [
+        "英皇道, 太古城中心一期",
+        114.217406,
+        22.285386
+      ],
+      "after": null
+    },
+    {
+      "id": "20012992",
+      "before": [
+        "太康街, 太康樓",
+        114.221889,
+        22.283434
+      ],
+      "after": null
+    },
+    {
+      "id": "20015046",
+      "before": [
+        "廣田邨小巴總站",
+        114.241324,
+        22.302753
+      ],
+      "after": null
+    },
+    {
+      "id": "20017820",
+      "before": [
+        "秀明道觀塘官立小學(秀明道)對面",
+        114.23441,
+        22.31538
+      ],
+      "after": null
+    }
+  ],
+  "calendarChanged": true,
+  "corrections": [
+    {
+      "routeId": "1000340-1",
+      "status": "verified"
+    },
+    {
+      "routeId": "1000340-2",
+      "status": "verified"
+    }
+  ],
+  "sourceHashes": {
+    "bus.json": "8cd2893a718081922cb48e2979d89012af81749c837295095d9075c81563e75e",
+    "gmb.json": "c0b2acabcc556a093c7145b0aa3c7aa5d99136257b7657d49dade4f7b4d00a4f",
+    "gtfs/routes.txt": "4d4ebdd7179fdca1eff02eb99d8236e44a612c95486ce37a9b588e06fde8341b",
+    "gtfs/calendar.txt": "3c25f338fbd1218b4ffdf25b10ced1037a470fe0ee838c03168bf2eb35a82145",
+    "gtfs/calendar_dates.txt": "06993fe69b19a3a0cce3d5c1562ec0c60a3d7c4bfbf4117f37483eae0b4f4bd5",
+    "gtfs/trips.txt": "ee85f7d9b44ad86179afbb29b0721f0336de65d440814343b7b1acf14ffade5b",
+    "gtfs/frequencies.txt": "936f6ae9fd33fc56ea4f0c48b6845e1d3661fa4bf42691b3009dab44548b156d",
+    "gtfs/stops.txt": "ddf7fb3691fcd1b9baba4aa4ee1aab8255b8fdfeb735dc6c30208b4660466930",
+    "gtfs/stop_times.txt": "730ed9e237fd392744628842489fddf4ea4a391311a4584d74acd4f43a9a0c23"
+  }
+}
