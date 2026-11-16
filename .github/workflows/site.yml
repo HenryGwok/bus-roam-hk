@@ -1,0 +1,118 @@
+name: Update bus data and publish Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      update_data:
+        description: Download and validate fresh bus data
+        type: boolean
+        default: true
+  schedule:
+    - cron: '17 1 * * 1'
+permissions:
+  contents: read
+concurrency:
+  group: bus-roam-production
+  cancel-in-progress: false
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    permissions:
+      contents: write
+    outputs:
+      publish: ${{ steps.publish.outputs.value }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - id: due
+        env:
+          EVENT: ${{ github.event_name }}
+          REQUESTED: ${{ inputs.update_data }}
+        run: |
+          node --input-type=module <<'JS'
+          import fs from 'node:fs';
+          const weeks=Math.floor((Date.now()-Date.parse('2026-11-16T00:00:00Z'))/604800000);
+          const due=process.env.EVENT==='schedule'?weeks%2===0:process.env.EVENT==='workflow_dispatch'&&process.env.REQUESTED==='true';
+          fs.appendFileSync(process.env.GITHUB_OUTPUT,'value='+due+'\n');
+          JS
+      - name: Download upstream data
+        if: steps.due.outputs.value == 'true'
+        run: python scripts/download-data.py "${{ runner.temp }}/bus-raw"
+      - name: Build candidate
+        if: steps.due.outputs.value == 'true'
+        run: |
+          node scripts/stage-update.mjs "${{ runner.temp }}/bus-raw" "${{ runner.temp }}/bus-candidate"
+          cp "${{ runner.temp }}/bus-raw/download-manifest.json" "${{ runner.temp }}/bus-candidate/"
+      - name: Validate and accept safe updates
+        id: accept
+        if: steps.due.outputs.value == 'true'
+        run: node scripts/accept-update.mjs "${{ runner.temp }}/bus-candidate"
+      - name: Validate site data and regression tests
+        if: github.event_name != 'schedule' || steps.due.outputs.value == 'true'
+        run: |
+          node scripts/validate-data.mjs data
+          npm test
+      - name: Save validated update and check date
+        if: steps.due.outputs.value == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data maintenance
+          if ! git diff --cached --quiet; then
+            git commit -m "Maintain bus data snapshot"
+            git push origin HEAD:main
+          fi
+      - id: publish
+        env:
+          EVENT: ${{ github.event_name }}
+          CHANGED: ${{ steps.accept.outputs.changed }}
+        run: |
+          if [ "$EVENT" != "schedule" ] || [ "$CHANGED" = "true" ]; then
+            echo "value=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Prepare public files
+        if: steps.publish.outputs.value == 'true'
+        run: |
+          mkdir _site
+          cp index.html app.js core.js style.css icon.svg _site/
+          cp -R data vendor _site/
+          if [ -f CNAME ]; then cp CNAME _site/; fi
+          touch _site/.nojekyll
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.publish.outputs.value == 'true'
+        with:
+          path: _site
+      - name: Preserve failure report
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bus-update-review
+          path: |
+            ${{ runner.temp }}/bus-candidate/update-report.json
+            ${{ runner.temp }}/bus-candidate/coverage.json
+            ${{ runner.temp }}/bus-raw/download-manifest.json
+          if-no-files-found: ignore
+          retention-days: 30
+  deploy:
+    needs: prepare
+    if: needs.prepare.outputs.publish == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - uses: actions/deploy-pages@v4
+        id: deployment

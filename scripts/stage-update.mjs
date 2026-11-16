@@ -1,0 +1,18 @@
+// Build a candidate snapshot separately. Never changes the published or local active dataset.
+import fs from 'node:fs/promises';import path from 'node:path';import {execFileSync}from'node:child_process';
+import{applyCorrections,geometryHash}from'./apply-corrections.mjs';
+const raw=process.argv[2],target=process.argv[3];
+if(!raw||!target)throw Error('Usage: node scripts/stage-update.mjs <downloaded-source-directory> <new-candidate-directory>');
+const active=path.resolve('data'),out=path.resolve(target);
+if(out===active||out.startsWith(active+path.sep))throw Error('Candidate must be outside active data');
+try{await fs.access(out);throw Error('Candidate directory must not already exist')}catch(e){if(e.code!=='ENOENT')throw e}
+await fs.mkdir(out,{recursive:true});
+execFileSync(process.execPath,['scripts/prepare-data.mjs',path.resolve(raw),out],{stdio:'inherit',windowsHide:true});
+const reviews=await applyCorrections(out),old=JSON.parse(await fs.readFile(active+'/network.json','utf8')),next=JSON.parse(await fs.readFile(out+'/network.json','utf8'));
+const oldMap=new Map(old.routes.map(r=>[r.id,r])),newMap=new Map(next.routes.map(r=>[r.id,r]));
+const added=next.routes.filter(r=>!oldMap.has(r.id)),removed=old.routes.filter(r=>!newMap.has(r.id)),changed=[];
+for(const r of next.routes){const prev=oldMap.get(r.id);if(!prev)continue;const a=JSON.parse(await fs.readFile(active+'/routes/'+r.id+'.json','utf8')),b=JSON.parse(await fs.readFile(out+'/routes/'+r.id+'.json','utf8'));let fields=[];if(JSON.stringify(a.stops.map(s=>[s.id,s.pick]))!==JSON.stringify(b.stops.map(s=>[s.id,s.pick])))fields.push('stops');if(geometryHash(a.coords)!==geometryHash(b.coords))fields.push('geometry');if(JSON.stringify(prev.schedule)!==JSON.stringify(r.schedule))fields.push('schedule');if(prev.destination!==r.destination)fields.push('destination');if(fields.length)changed.push({id:r.id,number:r.number,fields})}
+const stopChanges=[];for(const [id,loc]of Object.entries(next.locations)){if(JSON.stringify(loc)!==JSON.stringify(old.locations[id]))stopChanges.push({id,before:old.locations[id]||null,after:loc})}for(const id of Object.keys(old.locations)){if(!next.locations[id])stopChanges.push({id,before:old.locations[id],after:null})}const calendarChanged=JSON.stringify(old.calendar)!==JSON.stringify(next.calendar)||JSON.stringify(old.exceptions)!==JSON.stringify(next.exceptions);
+const blocking=[];if(!next.stops.length||!next.routes.length)blocking.push('empty-network');if(removed.length>old.routes.length*.05)blocking.push('large-route-removal');if(next.meta.geometryCount/next.routes.length<old.meta.geometryCount/old.routes.length-.03)blocking.push('geometry-coverage-drop');if(reviews.some(r=>r.status!=='verified'))blocking.push('correction-needs-review');
+const sourceHashes={};for(const f of ['bus.json','gmb.json','gtfs/routes.txt','gtfs/calendar.txt','gtfs/calendar_dates.txt','gtfs/trips.txt','gtfs/frequencies.txt','gtfs/stops.txt','gtfs/stop_times.txt']){const data=await fs.readFile(path.join(raw,f));sourceHashes[f]=geometryHash(data.toString())}
+const report={created:new Date().toISOString(),candidate:out,activeUnchanged:true,requiresReview:true,blocking,added:added.map(r=>({id:r.id,number:r.number,destination:r.destination})),removed:removed.map(r=>({id:r.id,number:r.number})),changed,stopChanges,calendarChanged,corrections:reviews,sourceHashes};await fs.writeFile(out+'/update-report.json',JSON.stringify(report,null,2));console.log(JSON.stringify({report:out+'/update-report.json',added:added.length,removed:removed.length,changed:changed.length,blocking,activeUnchanged:true}));

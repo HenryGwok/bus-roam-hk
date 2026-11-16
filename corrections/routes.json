@@ -1,0 +1,58 @@
+[
+  {
+    "routeId": "1000340-1",
+    "routeNumber": "B8",
+    "checked": "2026-10-26",
+    "source": "https://mobile.citybus.com.hk/nwp3/?f=1&ds=B8&dsmode=1&l=0",
+    "sourceName": "城巴官方互動路線圖",
+    "supportingSource": "https://www.td.gov.hk/en/traffic_notices/index_id_69723.html",
+    "note": "已按城巴官方正常班次路線圖核對，經香園圍公路；取代原有道路資料。",
+    "geometryFile": "1000340-1.json",
+    "expectedStopIds": [
+      "847",
+      "868",
+      "849",
+      "6051",
+      "6072",
+      "869",
+      "870",
+      "6111",
+      "6113",
+      "892",
+      "894",
+      "895",
+      "6280",
+      "6257",
+      "10000179"
+    ],
+    "baseGeometryHash": "3c0f4f55b45b5b663f7cf2d57885d2fb3eeda54c96b639dbe7ca825bd7cdbd5d"
+  },
+  {
+    "routeId": "1000340-2",
+    "routeNumber": "B8",
+    "checked": "2026-10-26",
+    "source": "https://mobile.citybus.com.hk/nwp3/?f=1&ds=B8&dsmode=1&l=0",
+    "sourceName": "城巴官方互動路線圖",
+    "supportingSource": "https://www.td.gov.hk/en/traffic_notices/index_id_69723.html",
+    "note": "已按城巴官方正常班次路線圖核對，經香園圍公路；取代原有道路資料。",
+    "geometryFile": "1000340-2.json",
+    "expectedStopIds": [
+      "10000179",
+      "10000037",
+      "12936",
+      "881",
+      "6265",
+      "883",
+      "6114",
+      "721",
+      "874",
+      "875",
+      "6073",
+      "6052",
+      "857",
+      "858",
+      "847"
+    ],
+    "baseGeometryHash": "ad4e72eff35cffe0a4d05e8b5f6ee15a5fa45f7863bfdfb339e20bc41ae38bad"
+  }
+]
